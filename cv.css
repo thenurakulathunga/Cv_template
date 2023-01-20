@@ -1,0 +1,257 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    padding: 0px;
+}
+
+.main{
+    display: flex;
+    padding: 10px;
+    width: 100%;
+}
+
+.left-col{
+    width:400px;
+}
+body h1,h3{
+    font-family: 'Staatliches', cursive;
+
+
+}
+body p{
+    
+    font-family: 'Darker Grotesque', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+}
+body{
+    background-image: url(Image/back01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.Skills h3, .Langauge h3{
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-top: 40px;
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+.progress-bar{
+    background: #959595;
+    width: 270px;
+    height:10px;
+    border-radius: 5px;
+}
+.progress-bar div{
+    height: 10px;
+    border-radius: 5px;
+    width: 0%;
+    
+}
+.progress-bar div span{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background: #fff;
+    float: right;
+    margin-top: -15px;
+    margin-right: -20px;
+    color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ps{
+    background-color: #E9B44C;
+    animation: ps 1s linear forwards;
+}
+.Il{
+    background-color: #E9B44C;    
+    animation: Il 1s linear forwards;
+}
+.Pp{
+    background-color: #E9B44C;    
+    animation: Pp 1s linear forwards;
+}
+.Lig{
+    background-color: #E9B44C;    
+    animation: Lig 1s linear forwards;
+}
+.ps span{
+    border: 1px solid #E9B44C;
+}
+.Il span{
+    border: 1px solid #E9B44C;
+}
+.Pp span{
+    border: 1px solid #E9B44C;
+}
+.Lig span{
+    border: 1px solid #E9B44C;
+}
+.Sinhala{
+    background-color: #E9B44C;
+    animation: Sinhala 1s linear forwards;
+}
+.English{
+    background-color: #E9B44C;
+    animation: English 1s linear forwards;
+}
+.Tamil{
+    background-color: #E9B44C;
+    animation: Tamil 1s linear forwards;
+}
+
+.Sinhala span{border: 1px solid #E9B44C;
+}
+.English span{border: 1px solid #E9B44C;
+}
+.Tamil span{border: 1px solid #E9B44C;
+}
+
+.right-col{
+    width: 75%;
+    margin-left: 10px;
+}
+
+
+.fa{
+    padding-right: 20px;
+    color: #E9B44C; 
+}
+.image, .about, .Skills, .Langauge{
+    width: 100%;
+}
+.image img{
+    
+    width: 100%;
+    margin: auto;
+    display: block;
+    
+}
+.image{
+    position: relative;
+}
+
+.image div{
+    position: absolute;
+    bottom: 0;
+    color: #000;
+}
+.Rbottom-col{
+    margin: 10px;
+}
+
+.about{
+    padding: 0px 20px;
+    border-bottom: 2px solid black;
+}
+
+.Skills {
+    padding: 0px 20px;
+    margin-top: 40px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid black;   
+}
+.Langauge{
+    padding: 0px 20px;
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
+.left-col{
+    box-shadow: 3px 5px 5px black;
+    background: linear-gradient(to right bottom,rgba(225,225,225,1),rgba(225,225,225,0.5));
+}
+.right-col {
+    padding: 0px 10px;
+}
+
+ 
+.top-col ,.bottom-col{
+    width: 100%;
+    padding: 30px 20px;
+    margin: 0px 40px;
+    box-shadow: 3px 5px 5px black;
+    background: linear-gradient(to right bottom,rgba(225,225,225,1),rgba(225,225,225,0.5));
+
+}
+.bottom-col{
+    margin-top: 10px;
+}
+.top-col{
+    margin-bottom: 20px;
+}
+.top-col2 button{
+    border: none;
+    border-radius: 5px;
+    background-color: #E9B44C;
+    padding: 5px;
+    font-family: 'Darker Grotesque', sans-serif;
+    font-size: 15px;
+    letter-spacing: .5px;
+}
+.main::after{
+    clear: both;
+    display: table;
+    content:"";
+}
+.footer{
+    padding: 10px 0px;
+    margin-top: 10px;
+    width: 100%;
+    box-shadow: 3px 5px 5px black;
+    position: relative;
+    background:rgba(225,225,225,0.5);
+    text-align: center;
+ } 
+.footer a{
+    text-align: center;
+}
+
+.top-col2, .top-col3,.bottom-col2,.bottom-col3{
+    border-bottom: 2px solid black;
+}
+@keyframes Sinhala{
+    100%{
+        width: 90%;
+    }
+}
+@keyframes English{
+    100%{
+        width: 60%;
+    }
+}
+@keyframes Tamil{
+    100%{
+        width: 60%;
+    }
+}
+
+@keyframes ps{
+    100%{
+        width: 90%;
+    }
+}
+@keyframes Il{
+    100%{
+        width:60%;
+    }
+}
+@keyframes Pp{
+    100%{
+        width: 70%;
+    }
+}
+@keyframes Lig{
+    100%{
+        width: 85%;
+    }
+}
+
+
+
+
